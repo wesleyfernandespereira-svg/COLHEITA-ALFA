@@ -1,0 +1,19 @@
+COLHEITA ALFA - PROJETO ANDROID NATIVO
+
+Projeto-fonte Kotlin para abrir no Android Studio.
+O projeto não é um APK pronto. É necessário compilar e testar no Android Studio.
+
+Funcionalidades: cadastro inicial do proprietário, cadastro de funcionários,
+registro de litros e preço por litro, relatório por período, baixa de pagamentos.
+A baixa marca os registros como pagos e os retira dos valores pendentes,
+mas preserva o histórico de colheitas.
+
+Dados locais SQLite. Sem internet e sem backup (android:allowBackup=false).
+Datas no formato AAAA-MM-DD. Um único perfil operacional nesta versão inicial.
+
+Para gerar o APK: abrir a pasta no Android Studio compatível, aguardar sincronização
+Gradle, usar Build > Build APK(s). O arquivo será gerado em app/build/outputs/apk/debug/.
+
+IMPORTANTE: Android Studio atual pode não funcionar no Windows 10 1909.
+Para compilar, use um computador com sistema compatível ou ambiente de build remoto.
+Este código não foi compilado/testado neste ambiente; revisar antes do uso real.

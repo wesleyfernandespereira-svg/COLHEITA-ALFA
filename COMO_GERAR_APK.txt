@@ -1,0 +1,18 @@
+COLHEITA ALFA - GERAR APK SEM ANDROID STUDIO
+
+1. Entre em https://github.com e crie uma conta gratuita (se ainda nao tiver).
+2. Clique em New repository; nome: colheita-alfa; selecione Private; Create repository.
+3. Na pagina do repositorio vazio, clique em uploading an existing file.
+4. Extraia este ZIP no Windows e abra a pasta ColheitaAlfaAndroid.
+5. Arraste TODOS os arquivos e pastas de dentro dela para a pagina de upload.
+   ATENCAO: a pasta oculta .github/workflows/android.yml deve ser incluida.
+   Se o navegador nao incluir a pasta .github, use Add file > Create new file
+   e crie .github/workflows/android.yml com o conteudo fornecido no pacote.
+6. Clique em Commit changes.
+7. Abra Actions > Gerar APK Colheita Alfa > Run workflow (se nao iniciar automaticamente).
+8. Aguarde o resultado verde; abra a execucao e baixe o artefato ColheitaAlfa-APK.
+9. Extraia o ZIP baixado: dentro estara app-debug.apk.
+10. Transfira app-debug.apk ao Xiaomi/Redmi, abra-o no Gerenciador de Arquivos e instale.
+
+ATENCAO: esta e uma versao inicial NAO TESTADA. Teste com dados ficticios.
+Nao desinstale o aplicativo se precisar preservar os dados locais.
